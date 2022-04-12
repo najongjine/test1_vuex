@@ -108,6 +108,11 @@ export default {
   props: {
     msg: String,
   },
+  data() {
+    return {
+      dummy: "dummy",
+    };
+  },
 };
 </script>
 
